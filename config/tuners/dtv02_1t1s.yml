@@ -1,0 +1,7 @@
+- name: DTV02-1T1S_ST1
+  types:
+    - GR
+    - BS
+    - CS
+  command: recpt1 --b25 --device /dev/isdb2056video0 <channel> - -
+  isDisabled: false

@@ -1,0 +1,39 @@
+- name: PX-MLT5_ST1
+  types:
+    - GR
+    - BS
+    - CS
+  command: recpt1 --b25 --device /dev/pxmlt5video0 <channel> - -
+  isDisabled: false
+
+- name: PX-MLT5_ST2
+  types:
+    - GR
+    - BS
+    - CS
+  command: recpt1 --b25 --device /dev/pxmlt5video1 <channel> - -
+  isDisabled: false
+
+- name: PX-MLT5_ST3
+  types:
+    - GR
+    - BS
+    - CS
+  command: recpt1 --b25 --device /dev/pxmlt5video2 <channel> - -
+  isDisabled: false
+
+- name: PX-MLT5_ST4
+  types:
+    - GR
+    - BS
+    - CS
+  command: recpt1 --b25 --device /dev/pxmlt5video3 <channel> - -
+  isDisabled: false
+
+- name: PX-MLT5_ST5
+  types:
+    - GR
+    - BS
+    - CS
+  command: recpt1 --b25 --device /dev/pxmlt5video4 <channel> - -
+  isDisabled: false

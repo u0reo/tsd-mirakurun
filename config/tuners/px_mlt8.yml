@@ -1,0 +1,63 @@
+- name: PX-MLT8_ST1
+  types:
+    - GR
+    - BS
+    - CS
+  command: recpt1 --b25 --device /dev/pxmlt8video0 <channel> - -
+  isDisabled: false
+
+- name: PX-MLT8_ST2
+  types:
+    - GR
+    - BS
+    - CS
+  command: recpt1 --b25 --device /dev/pxmlt8video1 <channel> - -
+  isDisabled: false
+
+- name: PX-MLT8_ST3
+  types:
+    - GR
+    - BS
+    - CS
+  command: recpt1 --b25 --device /dev/pxmlt8video2 <channel> - -
+  isDisabled: false
+
+- name: PX-MLT8_ST4
+  types:
+    - GR
+    - BS
+    - CS
+  command: recpt1 --b25 --device /dev/pxmlt8video3 <channel> - -
+  isDisabled: false
+
+- name: PX-MLT8_ST5
+  types:
+    - GR
+    - BS
+    - CS
+  command: recpt1 --b25 --device /dev/pxmlt8video4 <channel> - -
+  isDisabled: false
+
+- name: PX-MLT8_ST6
+  types:
+    - GR
+    - BS
+    - CS
+  command: recpt1 --b25 --device /dev/pxmlt8video5 <channel> - -
+  isDisabled: false
+
+- name: PX-MLT8_ST7
+  types:
+    - GR
+    - BS
+    - CS
+  command: recpt1 --b25 --device /dev/pxmlt8video6 <channel> - -
+  isDisabled: false
+
+- name: PX-MLT8_ST8
+  types:
+    - GR
+    - BS
+    - CS
+  command: recpt1 --b25 --device /dev/pxmlt8video7 <channel> - -
+  isDisabled: false
