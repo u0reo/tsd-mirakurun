@@ -40,6 +40,6 @@ echo
 echo '\nYou can start with the following command.'
 echo "$ docker run -d -p 40772:40772 -p 9229:9229 --name=mirakurun --restart=unless-stopped \\
 -v /etc/localtime:/etc/localtime:ro -v /etc/timezone:/etc/timezone:ro \\
--v mirakurun_data:/data -v `pwd`/mirakurun/config:/config \\
+-v mirakurun_data:/data -v `pwd`:/config \\
 ${device_opts}\
---device /dev/bus:/dev/bus --cap-add=SYS_NICE tsd-mirakurun"
+--device /dev/bus:/dev/bus --cap-add=SYS_NICE ureo/tsd-mirakurun"
